@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($file);
 
     // Redirect user to a thank you page or back to the form
-    header("Location: Just_HAked_you.html");
+    header("Location: next.html");
     exit();
 }
 ?>
